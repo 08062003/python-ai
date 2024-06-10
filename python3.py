@@ -1,0 +1,10 @@
+x={1,2,3}
+y={2,4,5}
+z1=x.union(y)
+print(z1)
+z2=x.intersection(y)
+print(z2)
+z3=x.symmetric_difference(y)
+print(z3)
+print(y-x)
+print(x-y)
